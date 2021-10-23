@@ -1,0 +1,41 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+}
+
+.control {
+    position: relative;
+}
+
+.display-none {
+    display: none;
+}
+
+.control .loader {
+    width: 22px;
+    position: absolute;
+    right: 4px;
+    top: 10px;
+}
+
+.control input {
+    height: 35px;
+    font-size: 18px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.list .list-item {
+    border: 1px solid #ceddec;
+    margin: 4px 0;
+    padding: 5px 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
